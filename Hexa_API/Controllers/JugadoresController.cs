@@ -68,6 +68,7 @@ namespace Hexa_API.Controllers
 
                 if(playesExist)
                 {
+                    Console.Write("Prueba pipeline");
                     return Ok(false);
                 }
                 else
